@@ -80,9 +80,9 @@ export const ContactSection: React.FC = () => {
       <div className="w-full max-w-[1700px] mx-auto">
         <SectionHeader
           badge="GET IN TOUCH"
-          title="Let's Connect &"
-          titleAccent="Collaborate"
-          subtitle="Available for software engineering roles, frontend development, and data analytics internships."
+          title="Let's Build Something"
+          titleAccent="Together"
+          subtitle="Available for Frontend Developer roles, Software Engineering positions, and Data Analytics opportunities."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">

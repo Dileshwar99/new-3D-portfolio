@@ -4,6 +4,7 @@ import { PERSONAL_INFO } from '../../data/portfolioData';
 import { HeroScene } from '../3d/HeroScene';
 import { MagneticButton } from '../ui/MagneticButton';
 import { ArrowDown, FileText, Sparkles, FolderGit2, Award, GraduationCap } from 'lucide-react';
+import { GitHubIcon, LinkedInIcon } from '../ui/Icons';
 
 export const Hero: React.FC = () => {
   const scrollTo = (id: string) => {
@@ -53,17 +54,17 @@ export const Hero: React.FC = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-white leading-[1.08]">
               {PERSONAL_INFO.name}
             </h1>
-            <div className="text-base sm:text-lg lg:text-xl font-mono text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-indigo-200 to-cyan-300 font-medium">
+            <div className="text-xl sm:text-2xl font-mono text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-indigo-200 to-cyan-300 font-bold">
               {PERSONAL_INFO.headline}
             </div>
           </div>
 
           {/* Short Professional Narrative */}
-          <p className="text-sm sm:text-base text-zinc-400 font-sans leading-relaxed max-w-xl">
-            "{PERSONAL_INFO.heroDescription}"
+          <p className="text-sm sm:text-base text-zinc-300/90 font-sans leading-relaxed max-w-xl">
+            {PERSONAL_INFO.shortIntro}
           </p>
 
-          {/* Call to Actions */}
+          {/* Call to Actions & Social Links */}
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <MagneticButton
               variant="primary"
@@ -71,7 +72,7 @@ export const Hero: React.FC = () => {
               className="!py-3 !px-6 text-sm font-mono cursor-pointer"
             >
               <FolderGit2 className="w-4 h-4" />
-              <span>View Projects</span>
+              <span>View My Projects</span>
             </MagneticButton>
 
             <MagneticButton
@@ -83,6 +84,28 @@ export const Hero: React.FC = () => {
               <FileText className="w-4 h-4 text-indigo-400" />
               <span>Download Resume</span>
             </MagneticButton>
+
+            {/* Social Icons */}
+            <div className="flex items-center gap-2 pl-1">
+              <a
+                href={PERSONAL_INFO.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/25 text-zinc-300 hover:text-white transition-all shadow-sm"
+                aria-label="GitHub Profile"
+              >
+                <GitHubIcon className="w-4 h-4" />
+              </a>
+              <a
+                href={PERSONAL_INFO.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/25 text-zinc-300 hover:text-white transition-all shadow-sm"
+                aria-label="LinkedIn Profile"
+              >
+                <LinkedInIcon className="w-4 h-4" />
+              </a>
+            </div>
           </div>
 
           {/* Tech focus chips */}

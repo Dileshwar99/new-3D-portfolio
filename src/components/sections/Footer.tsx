@@ -53,9 +53,17 @@ export const Footer: React.FC = () => {
             <LinkedInIcon className="w-4 h-4" />
           </a>
 
+          <a
+            href={`mailto:${PERSONAL_INFO.email}`}
+            className="text-zinc-400 hover:text-white transition-colors"
+            aria-label="Email Dileshwar Kumar"
+          >
+            <span className="text-xs font-mono">Email</span>
+          </a>
+
           <button
             onClick={scrollToTop}
-            className="p-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-zinc-400 hover:text-white transition-all ml-2"
+            className="p-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-zinc-400 hover:text-white transition-all ml-2 cursor-pointer"
             aria-label="Back to top"
           >
             <ArrowUp className="w-3.5 h-3.5" />

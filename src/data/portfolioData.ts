@@ -13,15 +13,15 @@ export interface CertificationItem {
 export const PERSONAL_INFO = {
   name: 'Dileshwar Kumar',
   logoText: 'DK',
-  headline: 'Frontend Developer | Software Engineer | Data Enthusiast',
-  roles: ['Frontend Developer', 'Software Engineer', 'Data Analyst', 'Oracle Cloud Certified'],
-  shortIntro: 'Building modern, interactive, and scalable digital products.',
-  heroDescription: 'Computer Science undergraduate at Panjab University with hands-on experience in building responsive web applications and interactive Power BI business analytics dashboards. Oracle Cloud Infrastructure 2025 Certified Developer.',
+  headline: 'Frontend Developer',
+  roles: ['Frontend Developer', 'Software Engineer', 'React Specialist', 'Data Enthusiast'],
+  shortIntro: 'Building responsive, modern and interactive web experiences with React, JavaScript and modern web technologies.',
+  heroDescription: 'Building responsive, modern and interactive web experiences with React, JavaScript and modern web technologies. Computer Science Engineering student at Panjab University and Oracle Cloud Certified Developer.',
   status: 'Open to Opportunities',
   email: 'dileshwarkumar561@gmail.com',
   phone: '+91 9313318882',
   location: 'Panjab University, Hoshiarpur, India',
-  educationSummary: 'Bachelor of Engineering in Computer Science (2023–2027) • Panjab University',
+  educationSummary: 'B.Tech / B.E. in Computer Science & Engineering (2023–2027) • Panjab University',
   github: 'https://github.com/Dileshwar99',
   linkedin: 'https://www.linkedin.com/in/dileshwarkumar/',
   resumeUrl: '/resume.pdf',
@@ -36,10 +36,10 @@ export const ABOUT_DATA = {
     'As an Oracle Cloud Infrastructure 2025 Certified Developer Professional with internship experience at Oasis Infobyte, I focus on clean code, modular architecture, and delivering software that solves real business challenges.'
   ],
   stats: [
-    { value: 'Oracle OCI', label: 'Cloud Certified', sublabel: '2025 Developer Pro' },
-    { value: 'Oasis Infobyte', label: 'Web Dev Intern', sublabel: 'Jan 2025 – Feb 2025' },
-    { value: '2023–2027', label: 'Panjab University', sublabel: 'B.E. Computer Science' },
-    { value: 'Deloitte', label: 'Data Analytics', sublabel: 'Job Simulation' },
+    { value: '5+ Projects', label: 'Projects Built', sublabel: 'React, Three.js, BI' },
+    { value: '15+ Tech', label: 'Core Technologies', sublabel: 'Modern Frontend & Data' },
+    { value: 'React / Web', label: 'Frontend Focus', sublabel: 'Responsive & Interactive' },
+    { value: 'Oracle OCI', label: 'Learning & Growth', sublabel: '2025 Certified Dev' },
   ] as StatItem[]
 };
 
