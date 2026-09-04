@@ -5,7 +5,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 > A futuristic, high-performance 3D interactive developer portfolio built with **React**, **Three.js / React Three Fiber**, **TypeScript**, and **Tailwind CSS**. Designed with an Awwwards-inspired dark aesthetic, cinematic WebGL visuals, real-time Power BI & frontend simulators, and ultra-smooth 60+ FPS responsiveness across all devices.
 
@@ -150,12 +149,6 @@ npm run preview
 ├── vite.config.ts              # Vite configuration
 └── package.json                # Project dependencies & scripts
 ```
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
